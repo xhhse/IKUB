@@ -1,0 +1,34 @@
+Package: IKUB
+Type: Package
+Title: Region-Based MR Brain Images Analysis
+Version: 1.0.0
+Authors@R: person(given = "YuPing",
+           family = "Hsu",
+           role = c("aut", "cre"),
+           email = "yupingikub@gmail.com",
+           comment = c(ORCID = "0000-0001-6469-1750"))
+Description: Takes MR brain images and their segmentation as input and produces
+    image visualizations, data visualizations, and statistical analyses in a 
+    unified manner. Should not be used for clinical diagnosis. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    EBImage,
+    graphics,
+    grDevices,
+    magrittr,
+    misc3d,
+    neurobase,
+    oro.nifti,
+    plyr,
+    purrr,
+    rgl,
+    stats,
+    tibble,
+    tidyr
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr

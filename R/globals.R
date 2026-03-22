@@ -1,0 +1,10 @@
+utils::globalVariables(c('n', 'Label_No', 'vol_mm3', 'Label_name'))
+utils::globalVariables(c('variable_x', 'data.annotation', 'R', 'G', 'B'))
+utils::globalVariables(c('img1','img2','tibble', 'std', 'z_score', 'filename'))
+utils::globalVariables(c('side','L','asymmetry_index','item'))
+utils::globalVariables(c('dice.coefficient', 'file1_counts', 'file2_counts'))
+utils::globalVariables(c('jaccard.index', 'overlap_counts', 'tot_file1'))
+utils::globalVariables(c('tot_file2', 'tot_overlap'))
+utils::globalVariables(c('datalabel', 'filename1', 'filename2', 'target_label'))
+utils::globalVariables(c('B_value', 'G_value', 'R_value'))
+
